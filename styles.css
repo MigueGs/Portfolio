@@ -1,0 +1,140 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+
+
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 40px; /* Adjust padding to add more space on the left and right sides */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    height: 50px;
+}
+
+
+
+p {
+    font-family: 'Merriweather', serif;
+}
+
+
+li {
+    font-family: 'Merriweather', serif;
+}
+
+
+
+main {
+    margin-top: 70px; /* Aumentar ligeramente el margen superior del contenido principal */
+}
+
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    
+}
+
+nav ul li {
+    display: inline-block; /* Cambiado de "inline" a "inline-block" */
+    margin-right: 20px;
+    
+
+}
+
+nav ul li:last-child {
+    padding-right: 20px; /* Add padding to the right side of the last menu item */
+}
+
+.section {
+    margin-bottom: 100px; /* Add margin at the bottom of each section */
+}
+
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff; /* Color de texto blanco */
+    transition: background-color 0.3s; /* Transición suave */
+    border-radius: 5px; /* Bordes redondeados */
+    padding: 8px 16px; /* Espaciado interno */
+    display: inline-block; /* Para que los bordes redondeados se apliquen correctamente */
+}
+
+nav ul li a:hover {
+    background-color: lightblue; /* Color de fondo gris claro al hacer hover */
+}
+
+/* Estilos para la sección de proyectos */
+.project-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+}
+
+
+.project-card {
+    background-color: #f4f4f4;
+    padding: 20px;
+    transition: transform 0.3s ease; /* Agregar transición */
+}
+
+.project-card:hover {
+    transform: translateY(-5px); /* Mover hacia arriba cuando el mouse está encima */
+    background-color: #ccc
+}
+
+/* Estilos para la foto circular */
+/* Estilos para la foto circular */
+.circular-img {
+    width: 200px; /* Ajusta el tamaño de la imagen según sea necesario */
+    height: 200px;
+    border-radius: 50%; /* Hace que la imagen sea circular */
+    margin-right: 20px; /* Agrega un margen a la derecha para separar la imagen del párrafo */
+    float: left; /* Hace que la imagen flote a la izquierda */
+}
+
+/* Estilos para el contenido de About Me */
+.about-me-content {
+    margin-bottom: 20px; /* Agrega un margen en la parte inferior del contenedor para separarlo del siguiente elemento */
+    overflow: auto; /* Soluciona problemas de desbordamiento */
+}
+
+/* Ajustar el tamaño de la fuente y el espaciado de las líneas */
+#about-me p {
+    font-size: 16px; /* Tamaño de fuente */
+    line-height: 1.5; /* Espaciado de línea */
+}
+
+/* .circular-img {
+    width: 150px; /* Ajusta el tamaño de la imagen según sea necesario */
+    /* height: 150px; */
+    /* border-radius: 50%; Hace que la imagen sea circular */
+/* } */ 
+
+
+/* Estilos para el footer */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
